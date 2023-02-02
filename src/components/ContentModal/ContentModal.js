@@ -30,6 +30,8 @@ const style = {
 };
 
 function ContentModal({ children, media_type, id }) {
+  
+  //eslint-disable-nextline
   const [open, setOpen] = useState(false);
   const [content, setContent] = useState();
   const [video, setVideo] = useState();
