@@ -8,6 +8,7 @@ import "./Carousel.css";
 const handleDragStart = (e) => e.preventDefault();
 
 function Carousel({ media_type, id }) {
+  //eslint-disable-nextline
   const [credits, setCredits] = useState();
 
   const items = credits?.map((credit) => (
