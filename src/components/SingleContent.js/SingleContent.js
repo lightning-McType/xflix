@@ -4,6 +4,8 @@ import { Badge } from "@mui/material";
 import ContentModal from "../ContentModal/ContentModal";
 
 function SingleContent({ id, poster, title, date, media_type, vote_average }) {
+  
+  //eslint-disalble-nextline
   vote_average = vote_average + '';
   vote_average = vote_average.slice(0, 3);
   return (
